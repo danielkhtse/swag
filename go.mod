@@ -1,4 +1,4 @@
-module github.com/zc2638/swag
+module github.com/danielkhtse/swag
 
 go 1.16
 

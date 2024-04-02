@@ -89,3 +89,17 @@ func OAuth2Security(flow, authorizationURL, tokenURL string) SecuritySchemeOptio
 		}
 	}
 }
+
+// BearerAuth defines a security scheme for Bearer authentication. "in" is
+// the location of the token (query or header). "name" is the name of the
+// header or query parameter to be used.
+func BearerAuth(name, in string) SecuritySchemeOption {
+	if in != "header" && in != "query" {
+		panic(fmt.Errorf(`BearerAuth "in" parameter must be one of: "header" or "query"`))
+	}
+	return func(scheme *swag.SecurityScheme) {
+		scheme.Type = "http"
+		scheme.Name = name
+		scheme.In = in
+	}
+}
