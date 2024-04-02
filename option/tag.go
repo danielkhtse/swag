@@ -15,7 +15,7 @@
 package option
 
 import (
-	"github.com/zc2638/swag"
+	"github.com/danielkhtse/swag"
 )
 
 // Tag adds a tag to the swagger api

@@ -1,9 +1,9 @@
 # swag
 
 ![LICENSE](https://img.shields.io/github/license/zc2638/swag.svg?style=flat-square&color=blue)
-[![GoDoc](https://godoc.org/github.com/zc2638/swag?status.svg)](https://godoc.org/github.com/zc2638/swag)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zc2638/swag/main.yaml?branch=main&style=flat-square)](https://github.com/zc2638/swag/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zc2638/swag?style=flat-square)](https://goreportcard.com/report/github.com/zc2638/swag)
+[![GoDoc](https://godoc.org/github.com/danielkhtse/swag?status.svg)](https://godoc.org/github.com/danielkhtse/swag)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/zc2638/swag/main.yaml?branch=main&style=flat-square)](https://github.com/danielkhtse/swag/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/danielkhtse/swag?style=flat-square)](https://goreportcard.com/report/github.com/danielkhtse/swag)
 [![codecov](https://img.shields.io/codecov/c/github/zc2638/swag/main?logo=codecov&style=flat-square)](https://codecov.io/gh/zc2638/swag)
 
 English | [简体中文](./README_zh.md)
@@ -21,7 +21,7 @@ Golang 1.16+
 ## Installation
 
 ```shell
-go get -u github.com/zc2638/swag@v1.4.3
+go get -u github.com/danielkhtse/swag@v1.4.3
 ```
 
 **Tip:** As of `v1.2.0`, lower versions are no longer compatible. In order to be compatible with most web frameworks,
@@ -55,9 +55,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/zc2638/swag"
-	"github.com/zc2638/swag/endpoint"
-	"github.com/zc2638/swag/option"
+	"github.com/danielkhtse/swag"
+	"github.com/danielkhtse/swag/endpoint"
+	"github.com/danielkhtse/swag/option"
 )
 
 // Category example from the swagger pet store
@@ -284,10 +284,10 @@ import (
 	"github.com/fasthttp/router"
 	"github.com/valyala/fasthttp"
 
-	"github.com/zc2638/swag"
-	"github.com/zc2638/swag/asserts"
-	"github.com/zc2638/swag/endpoint"
-	"github.com/zc2638/swag/option"
+	"github.com/danielkhtse/swag"
+	"github.com/danielkhtse/swag/asserts"
+	"github.com/danielkhtse/swag/endpoint"
+	"github.com/danielkhtse/swag/option"
 )
 
 // Category example from the swagger pet store

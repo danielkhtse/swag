@@ -17,7 +17,7 @@ package option
 import (
 	"fmt"
 
-	"github.com/zc2638/swag"
+	"github.com/danielkhtse/swag"
 )
 
 // SecurityScheme creates a new security definition for the API.

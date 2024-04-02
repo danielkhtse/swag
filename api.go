@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/zc2638/swag/asserts"
+	"github.com/danielkhtse/swag/asserts"
 )
 
 // Object represents the object entity from the swagger definition
