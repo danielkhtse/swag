@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zc2638/swag"
+	"github.com/danielkhtse/swag"
 )
 
 func TestTag(t *testing.T) {

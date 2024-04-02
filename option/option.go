@@ -15,7 +15,7 @@
 package option
 
 import (
-	"github.com/zc2638/swag"
+	"github.com/danielkhtse/swag"
 )
 
 // Description sets info.description

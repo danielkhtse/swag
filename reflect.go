@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/zc2638/swag/types"
+	"github.com/danielkhtse/swag/types"
 )
 
 func inspect(t reflect.Type, jsonTag string) Property {

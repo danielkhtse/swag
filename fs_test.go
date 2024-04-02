@@ -9,7 +9,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/zc2638/swag/asserts"
+	"github.com/danielkhtse/swag/asserts"
 
 	"github.com/stretchr/testify/assert"
 )

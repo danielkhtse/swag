@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zc2638/swag/types"
+	"github.com/danielkhtse/swag/types"
 
 	"github.com/stretchr/testify/assert"
 )

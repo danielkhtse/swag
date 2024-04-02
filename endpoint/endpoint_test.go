@@ -20,13 +20,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/zc2638/swag/types"
+	"github.com/danielkhtse/swag/types"
 
-	"github.com/zc2638/swag/option"
+	"github.com/danielkhtse/swag/option"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zc2638/swag"
+	"github.com/danielkhtse/swag"
 )
 
 func Echo(w http.ResponseWriter, _ *http.Request) {

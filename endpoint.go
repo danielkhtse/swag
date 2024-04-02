@@ -18,7 +18,7 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/zc2638/swag/types"
+	"github.com/danielkhtse/swag/types"
 )
 
 // Items represents items from the swagger doc
